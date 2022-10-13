@@ -23,4 +23,10 @@ public class EstoqueService {
         }
     }
 
+    public void liberarProdutos(List<Integer> codigos) {
+    }
+
+    public void confirmaProdutos(List<Integer> codigos) {
+    }
+
 }

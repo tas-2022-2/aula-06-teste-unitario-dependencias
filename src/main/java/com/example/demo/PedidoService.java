@@ -53,7 +53,7 @@ public class PedidoService {
             // 500, 400, [300, 80], 45, 45
             
             cuponsSelecionados = cupons.stream().map(Cupom::getId).toList();
-            
+
             try {
                 cupomService.usaCupons(cuponsSelecionados);
                 break;
